@@ -22,7 +22,7 @@ Checks latest github release version vs the current resource version
     exports['FS-Lib']:VersionCheck('FS-Lib', 'fearlessnite345/fs-lib')
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     exports['FS-Lib'].VersionCheck('FS-Lib', 'fearlessnite345/fs-lib')
     ```

@@ -19,7 +19,7 @@ Finds the closest trailer within a specified distance from the vehicle's hitch l
     local closestTrailer = exports['FS-Lib']:GetClosestTrailerToHitch(10.0)
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     const closestTrailer = exports['FS-Lib'].GetClosestTrailerToHitch(10.0)
     ```

@@ -20,7 +20,7 @@ Retrieves the name of the key corresponding to the provided key ID. This functio
     print("Key Name: " .. keyName)
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     const keyName = exports['FS-Lib'].GetKeyString(38)
     console.log(`Key Name: ${keyName}`)

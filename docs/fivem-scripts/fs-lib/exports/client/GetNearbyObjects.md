@@ -25,4 +25,16 @@ Finds the objects within a specified distance from the player's current location
     end
     ```
   </TabItem>
+  <TabItem value="js" label="Javascript" default>
+    ```js
+    const objects = exports['FS-Lib'].GetNearbyObjects(10.0);
+
+    for (let i = 0; i < objects.length; i++) {
+        const data = objects[i];
+        console.log(data.object);
+        console.log(data.objCoords);
+        console.log(data.dist);
+    }
+    ```
+  </TabItem>
 </Tabs>

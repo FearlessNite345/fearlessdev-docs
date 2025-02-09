@@ -21,7 +21,7 @@ Finds the closest vehicle within a specified distance from the player's current 
     local closestVeh, closestDist, closestCoords = exports['FS-Lib']:GetClosestVehicle(10.0)
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     const [closestPed, closestDist, closestCoords] = exports['FS-Lib'].GetClosestVehicle(10.0)
     ```

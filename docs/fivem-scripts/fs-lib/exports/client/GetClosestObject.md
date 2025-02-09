@@ -21,7 +21,7 @@ Finds the closest object within a specified distance from the player's current l
     local closestPed, closestDist, closestCoords = exports['FS-Lib']:GetClosestObject(10.0)
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     const [closestPed, closestDist, closestCoords] = exports['FS-Lib'].GetClosestObject(10.0)
     ```

@@ -22,7 +22,7 @@ Finds the closest pedestrian (NPC or player) within a specified distance from th
     local closestPed, closestDist, closestCoords = exports['FS-Lib']:GetClosestPed(10.0, "players")
     ```
   </TabItem>
-  <TabItem value="js" label="JS">
+  <TabItem value="js" label="Javascript">
     ```js
     const [closestPed, closestDist, closestCoords] = exports['FS-Lib'].GetClosestPed(10.0, "players")
     ```
