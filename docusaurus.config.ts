@@ -60,6 +60,11 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        {
+          href: 'https://discord.gg/9FJrnrc7Yp',
+          label: 'Discord',
+          position: 'right',
+        }
       ],
     },
     footer: {
