@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
+  title: 'FearlessDev',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/FS-White.ico',
+  favicon: 'img/FS-White.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.fearlessdev.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -32,10 +32,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: '/'
         },
         theme: {
@@ -51,15 +47,11 @@ const config: Config = {
       disableSwitch: true,
       respectPrefersColorScheme: false
     },
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Fearless\'s Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/FS-white.png',
-        width: 50,
-        height: 50
+        alt: 'FearlessStudios Logo',
+        src: 'img/FS-white.png'
       },
       items: [
         {
