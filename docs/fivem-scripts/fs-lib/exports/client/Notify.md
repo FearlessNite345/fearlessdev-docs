@@ -6,6 +6,10 @@ import TabItem from '@theme/TabItem';
 
 Sends a toast notification to the player
 
+:::warning
+This export is not available yet. It will be released in version 1.5.0. Please stay tuned for updates.
+:::
+
 ### Parameters
 - `title`: The title you want to show to the player
 - `message`: The message you want to show to the player

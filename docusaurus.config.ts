@@ -6,8 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'FearlessDev',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/FS-White.png',
+  favicon: 'img/FS-Logo.svg',
 
   // Set the production url of your site here
   url: 'https://docs.fearlessdev.me',
@@ -51,7 +50,7 @@ const config: Config = {
       title: 'Fearless\'s Docs',
       logo: {
         alt: 'FearlessStudios Logo',
-        src: 'img/FS-white.png'
+        src: 'img/FS-Logo.svg'
       },
       items: [
         {
@@ -62,7 +61,7 @@ const config: Config = {
         },
         {
           href: 'https://discord.gg/9FJrnrc7Yp',
-          label: 'Discord',
+          label: 'Join our Discord',
           position: 'right',
         }
       ],
