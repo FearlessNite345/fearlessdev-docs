@@ -16,5 +16,11 @@ Navigate to your server's `server.cfg` and add the following line into the file
 ensure FS-LBPhoneNumAssigner
 ```
 
+## Step 4: Install Dependencies
+Please also install the below Dependencies
+- `lb-phone`: Install this from your keymaster/cfx portal
+- `FS-Lib`: Install this from [here](https://github.com/FearlessNite345/FS-Lib/releases/latest)
+- `oxmysql`: Install this from [here](https://github.com/overextended/oxmysql/releases/latest)
+
 ## Done
 FS-LBPhoneNumAssigner will now be installed and working!
