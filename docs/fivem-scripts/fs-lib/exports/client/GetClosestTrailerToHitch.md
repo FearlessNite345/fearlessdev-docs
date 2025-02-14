@@ -16,12 +16,12 @@ Finds the closest trailer within a specified distance from the vehicle's hitch l
 <Tabs>
   <TabItem value="lua" label="Lua" default>
     ```lua
-    local closestTrailer = exports['FS-Lib']:GetClosestTrailerToHitch(10.0)
+    local closestTrailer = exports['FS-Lib']:GetClosestTrailerToHitch(1.2)
     ```
   </TabItem>
   <TabItem value="js" label="Javascript">
     ```js
-    const closestTrailer = exports['FS-Lib'].GetClosestTrailerToHitch(10.0)
+    const closestTrailer = exports['FS-Lib'].GetClosestTrailerToHitch(1.2)
     ```
   </TabItem>
 </Tabs>
