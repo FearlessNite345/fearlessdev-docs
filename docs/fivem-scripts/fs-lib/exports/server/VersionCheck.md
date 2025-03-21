@@ -10,11 +10,6 @@ Checks latest github release version vs the current resource version
 - `resourceName`: The name of the resource for printing purposes
 - `githubRepo`: This is the actual repo to check must be in `'username/repo'` format
 
-### Returns
-- `closestObj`: The object it found
-- `closestDist`: The distance to that object
-- `closestCoords`: The coords of the object
-
 ### Usage
 <Tabs>
   <TabItem value="lua" label="Lua" default>
