@@ -1,0 +1,38 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+### `getMoney`
+
+Retrieves the current balance for a given player and money type.
+
+### Parameters
+
+- `moneyType` - The type of money to retrieve (`'cash'`, `'bank'`, `'dirty'`).
+- `source` - The player's server ID.
+
+### Returns
+
+Returns the player's current balance as a number.
+
+### Usage
+
+<Tabs>
+  <TabItem value="lua" label="Lua" default>
+
+```lua
+exports['FS-Lib']:getMoney('cash', source)
+```
+
+  </TabItem>
+  <TabItem value="js" label="Javascript">
+
+```js
+exports["FS-Lib"].getMoney("cash", source);
+```
+
+  </TabItem>
+</Tabs>
