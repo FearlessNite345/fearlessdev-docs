@@ -1,10 +1,10 @@
-# Configuration
+# 
 
 This document describes how to configure and extend the Interior Manager using the `config.lua` file.
 
 ---
 
-## 🔧 Global Configuration
+## 🔧 Global 
 
 ### `Config.menuCommand` (string)
 
@@ -55,7 +55,7 @@ Each interior entry can have the following fields:
 - `defaults.sets` *(string[])* – Sets that are enabled by default on load
 - `entitySets` *(object[])* – A list of toggleable entity sets (see below)
 - `ipls` *(object[])* – A list of IPLs related to the interior (for loading/removing props or structures)
-- `presets` *(object[])* – Preset configurations to quickly switch between styles or states
+- `presets` *(object[])* – Preset s to quickly switch between styles or states
 
 :::tip
 You must define **at least one** of `entitySets` or `ipls`.
