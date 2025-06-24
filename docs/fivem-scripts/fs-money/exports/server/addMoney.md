@@ -15,6 +15,7 @@ Adds money to a player's balance.
 - `source` - The player's server ID.
 - `amount` - The amount to add.
 - `reason` (optional)` - A reason to show in the player's notification.
+- `sendNotify` (optional): Whether to display the notification to the user (default: true).
 
 ### Returns
 

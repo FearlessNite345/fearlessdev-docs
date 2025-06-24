@@ -15,6 +15,7 @@ Removes money from a player's balance.
 - `source` - The player's server ID.
 - `amount` - The amount to remove.
 - `reason` (optional)` - A reason to show in the player's notification.
+- `sendNotify` (optional): Whether to display the notification to the user (default: true).
 
 ### Returns
 
