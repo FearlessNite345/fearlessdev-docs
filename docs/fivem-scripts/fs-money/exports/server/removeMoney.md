@@ -11,7 +11,7 @@ Removes money from a player's balance.
 
 ### Parameters
 
-- `moneyType` - The type of money to deduct from (`'cash'`, `'bank'`, `'dirty'`).
+- `moneyType` - The type of money to deduct from (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
 - `source` - The player's server ID.
 - `amount` - The amount to remove.
 - `reason` (optional)` - A reason to show in the player's notification.

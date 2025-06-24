@@ -11,7 +11,7 @@ Retrieves the current balance for a given player and money type.
 
 ### Parameters
 
-- `moneyType` - The type of money to retrieve (`'cash'`, `'bank'`, `'dirty'`).
+- `moneyType` - The type of money to retrieve (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
 - `source` - The player's server ID.
 
 ### Returns

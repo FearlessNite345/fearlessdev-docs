@@ -11,7 +11,7 @@ Adds money to a player's balance.
 
 ### Parameters
 
-- `moneyType` - The type of money to add to (`'cash'`, `'bank'`, `'dirty'`).
+- `moneyType` - The type of money to add to (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
 - `source` - The player's server ID.
 - `amount` - The amount to add.
 - `reason` (optional)` - A reason to show in the player's notification.

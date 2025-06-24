@@ -11,7 +11,7 @@ Transfers money from one player to another.
 
 ### Parameters
 
-- `moneyType` - The type of money to transfer (`'cash'`, `'bank'`, `'dirty'`).
+- `moneyType` - The type of money to transfer (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
 - `fromSrc` - The sender's player ID.
 - `toSrc` - The receiver's player ID.
 - `amount` - The amount to transfer.

@@ -11,7 +11,7 @@ Sets the player's balance for the specified money type.
 
 ### Parameters
 
-- `moneyType` - The type of money to set (`'cash'`, `'bank'`, `'dirty'`).
+- `moneyType` - The type of money to set (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
 - `source` - The player's server ID.
 - `amount` - The new balance to assign.
 
