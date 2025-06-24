@@ -26,14 +26,14 @@ Returns `true` if the deduction succeeded, otherwise `false`.
   <TabItem value="lua" label="Lua" default>
 
 ```lua
-exports['FS-Lib']:removeMoney('bank', source, 250, 'Purchase')
+exports['FS-Money']:removeMoney('bank', source, 250, 'Purchase')
 ```
 
   </TabItem>
   <TabItem value="js" label="Javascript">
 
 ```js
-exports['FS-Lib'].removeMoney('bank', source, 250, 'Purchase')
+exports['FS-Money'].removeMoney('bank', source, 250, 'Purchase')
 ```
 
   </TabItem>

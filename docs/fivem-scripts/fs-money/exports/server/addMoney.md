@@ -26,14 +26,14 @@ Returns `true` if successful.
   <TabItem value="lua" label="Lua" default>
 
 ```lua
-exports['FS-Lib']:addMoney('cash', source, 100, 'Job Payout')
+exports['FS-Money']:addMoney('cash', source, 100, 'Job Payout')
 ```
 
   </TabItem>
   <TabItem value="js" label="Javascript">
 
 ```js
-exports['FS-Lib'].addMoney('cash', source, 100, 'Job Payout')
+exports['FS-Money'].addMoney('cash', source, 100, 'Job Payout')
 ```
 
   </TabItem>

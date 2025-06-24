@@ -26,14 +26,14 @@ Returns `true` if the transfer was successful, otherwise `false`.
   <TabItem value="lua" label="Lua" default>
 
 ```lua
-exports['FS-Lib']:transferMoney('cash', source, target, 50)
+exports['FS-Money']:transferMoney('cash', source, target, 50)
 ```
 
   </TabItem>
   <TabItem value="js" label="Javascript">
 
 ```js
-exports['FS-Lib'].transferMoney('cash', source, target, 50)
+exports['FS-Money'].transferMoney('cash', source, target, 50)
 ```
 
   </TabItem>

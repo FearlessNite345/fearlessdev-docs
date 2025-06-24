@@ -25,14 +25,14 @@ Returns `true` if the update was successful, otherwise `false`.
   <TabItem value="lua" label="Lua" default>
 
 ```lua
-exports['FS-Lib']:setMoney('bank', source, 1500)
+exports['FS-Money']:setMoney('bank', source, 1500)
 ```
 
   </TabItem>
   <TabItem value="js" label="Javascript">
 
 ```js
-exports['FS-Lib'].setMoney('bank', source, 1500)
+exports['FS-Money'].setMoney('bank', source, 1500)
 ```
 
   </TabItem>

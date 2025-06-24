@@ -24,14 +24,14 @@ Returns the player's current balance as a number.
   <TabItem value="lua" label="Lua" default>
 
 ```lua
-exports['FS-Lib']:getMoney('cash', source)
+exports['FS-Money']:getMoney('cash', source)
 ```
 
   </TabItem>
   <TabItem value="js" label="Javascript">
 
 ```js
-exports["FS-Lib"].getMoney("cash", source);
+exports["FS-Money"].getMoney("cash", source);
 ```
 
   </TabItem>
