@@ -31,7 +31,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/'
+          routeBasePath: '/',
+          editUrl: 'https://github.com/FearlessNite345/fearlessdev-docs/tree/main'
         },
         theme: {
           customCss: './src/css/custom.css',
