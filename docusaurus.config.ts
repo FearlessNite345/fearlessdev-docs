@@ -61,6 +61,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          href: 'https://store.fearlessdev.me',
+          label: 'Visit our Store',
+          position: 'right',
+        },
+        {
           href: 'https://discord.gg/9FJrnrc7Yp',
           label: 'Join our Discord',
           position: 'right',
