@@ -1,4 +1,4 @@
-# 
+# Configuration Guide
 
 This document describes how to configure and extend the Interior Manager using the `config.lua` file.
 
