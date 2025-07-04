@@ -1,5 +1,4 @@
-
-# 🛠️ FS-Money Configuration Guide
+# Configuration Guide
 
 This guide explains how to configure the `config.lua` file for **FS-Money**, customizing how the money system works on your FiveM server.
 
@@ -214,4 +213,3 @@ resources/[fs-money]/config.lua
 - **Fields:**
   - **`Enable`**: Toggles Money HUD on/off.  
   - **`showKey`**: Key code (`48` = `Z`) for players to toggle the HUD visibility.
-  
