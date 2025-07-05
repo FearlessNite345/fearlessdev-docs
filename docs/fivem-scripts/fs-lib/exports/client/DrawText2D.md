@@ -1,11 +1,14 @@
 ---
+title: DrawText2D
 sidebar_position: 9
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Draws 2D text at specified screen coordinates.
 
+:::
 ### Parameters
 - `x`: X coordinate of the text on the screen (number).
 - `y`: Y coordinate of the text on the screen (number).

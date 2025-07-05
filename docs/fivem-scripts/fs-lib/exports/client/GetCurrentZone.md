@@ -1,12 +1,15 @@
 ---
+title: GetCurrentZone
 sidebar_position: 14
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Returns the zone name for the player's current location.
 
+:::
 ### Parameters
 
 This export takes no parameters.

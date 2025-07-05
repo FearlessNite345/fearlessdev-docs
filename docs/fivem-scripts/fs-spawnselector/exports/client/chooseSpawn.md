@@ -8,7 +8,9 @@ description: chooseSpawn export docs
 
 ## `chooseSpawn`
 
+:::info
 Triggers the spawn selector UI manually. Useful if you’re integrating with external systems like a loading screen or character creator.
+:::
 
 ---
 

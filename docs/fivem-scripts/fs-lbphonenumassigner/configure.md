@@ -1,3 +1,10 @@
+---
+id: configure
+title: Configuring FS-LBPhoneNumAssigner
+sidebar_label: Configuration
+description: How to configure FS-LBPhoneNumAssigner
+---
+
 # Configuration Guide
 
 This guide explains how to configure **FS-LBPhoneNumAssigner**, a resource that sets the player's phone number to a custom number based on their member number for LB Phone.

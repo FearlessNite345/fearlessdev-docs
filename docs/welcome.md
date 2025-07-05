@@ -3,14 +3,18 @@ sidebar_position: 1
 slug: /
 ---
 
-# Fearless's Documentation
+# FearlessDev Documentation
 
-Welcome to Fearless's Documentation! Here you’ll find all of my scripts and creations.
+Welcome to the official home for all FearlessDev scripts and creations. Here you'll find installation guides, configuration tips and API references.
 
-:::info
-Join our Discord by clicking the link located in the top-right corner of the navbar.
+:::tip New here?
+Start by exploring our [FiveM Scripts](/fivem-scripts) collection.
+:::
+
+:::info Need help?
+Join our [Discord](https://discord.gg/9FJrnrc7Yp) community for questions or support.
 :::
 
 :::warning
-This documentation is a work in progress. Some information may be outdated or inaccurate.
+These docs are a work in progress and may contain incomplete information.
 :::

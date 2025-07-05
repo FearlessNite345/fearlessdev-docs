@@ -1,4 +1,15 @@
+---
+id: configure
+title: Configuring FS-Money
+sidebar_label: Configuration
+description: How to configure FS-Money
+---
+
 # Configuration Guide
+
+:::tip
+Tweak how cash, bank, and dirty money behave on your server by editing `config.lua`.
+:::
 
 This guide explains how to configure the `config.lua` file for **FS-Money**, customizing how the money system works on your FiveM server.
 

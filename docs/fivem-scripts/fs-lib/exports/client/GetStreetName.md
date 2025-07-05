@@ -1,11 +1,14 @@
 ---
+title: GetStreetName
 sidebar_position: 12
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Returns the street name at the coords provided
 
+:::
 ### Parameters
 - `x`: The x coordinate
 - `y`: The y coordinate

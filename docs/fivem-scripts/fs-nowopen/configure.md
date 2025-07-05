@@ -5,6 +5,10 @@ sidebar_label: Configuration
 description: How to set up and configure the FS-NowOpen business directory system
 ---
 
+:::tip
+Display which businesses are open and manage listings with simple commands.
+:::
+
 ## ⚙️ Basic Setup
 
 To configure `FS-NowOpen`, open the `config.lua` file inside the resource folder. Below is an example configuration with explanations for each option:

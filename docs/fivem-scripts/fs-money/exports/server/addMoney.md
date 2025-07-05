@@ -1,4 +1,5 @@
 ---
+title: addMoney
 sidebar_position: 2
 ---
 
@@ -7,8 +8,10 @@ import TabItem from '@theme/TabItem';
 
 ### `addMoney`
 
+:::info
 Adds money to a player's balance.
 
+:::
 ### Parameters
 
 - `moneyType` - The type of money to add to (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

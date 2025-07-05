@@ -1,4 +1,5 @@
 ---
+title: setMoney
 sidebar_position: 2
 ---
 
@@ -7,8 +8,10 @@ import TabItem from '@theme/TabItem';
 
 ### `setMoney`
 
+:::info
 Sets the player's balance for the specified money type.
 
+:::
 ### Parameters
 
 - `moneyType` - The type of money to set (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

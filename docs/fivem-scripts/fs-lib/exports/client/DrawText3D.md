@@ -1,11 +1,14 @@
 ---
+title: DrawText3D
 sidebar_position: 8
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Draws 3D text at specified world coordinates.
 
+:::
 ### Parameters
 - `x`: X coordinate of the text (number).
 - `y`: Y coordinate of the text (number).

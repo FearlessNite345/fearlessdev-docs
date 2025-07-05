@@ -1,12 +1,15 @@
 ---
+title: VersionCheck
 sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Checks latest github release version vs the current resource version
 
+:::
 ### Parameters
 
 - `resourceName`: The name of the resource for printing purposes

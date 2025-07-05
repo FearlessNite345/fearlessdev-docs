@@ -1,12 +1,15 @@
 ---
+title: DrawMarker3D
 sidebar_position: 13
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Wrapper around `DrawMarker` for simple 3D markers.
 
+:::
 ### Parameters
 
 - `markerType`: Marker ID; defaults to 1 if not provided (number, optional).

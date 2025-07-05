@@ -1,4 +1,5 @@
 ---
+title: removeMoney
 sidebar_position: 2
 ---
 
@@ -7,8 +8,10 @@ import TabItem from '@theme/TabItem';
 
 ### `removeMoney`
 
+:::info
 Removes money from a player's balance.
 
+:::
 ### Parameters
 
 - `moneyType` - The type of money to deduct from (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

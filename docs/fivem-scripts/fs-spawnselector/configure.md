@@ -5,6 +5,10 @@ sidebar\_label: Configuration
 description: How to set up and configure the FS-SpawnSelector resource
 ---
 
+:::tip
+Configure spawn points and control when the selector appears.
+:::
+
 ## 📦 Basic Setup
 
 To configure the `FS-SpawnSelector`, open the `config.lua` file inside the resource folder. Below is an example configuration with explanations for each option:

@@ -1,11 +1,14 @@
 ---
+title: GetClosestPed
 sidebar_position: 4
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Finds the closest pedestrian (NPC or player) within a specified distance from the player's current location.
 
+:::
 ### Parameters
 - `maxDistance`: The maximum distance within which to search for pedestrians (number).
 - `searchType`: Type of pedestrian to search for. Use "players" to find players or "npcs" to find NPCs or "both" to find both (string).

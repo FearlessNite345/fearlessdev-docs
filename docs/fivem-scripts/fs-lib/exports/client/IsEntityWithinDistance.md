@@ -1,12 +1,15 @@
 ---
+title: IsEntityWithinDistance
 sidebar_position: 15
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Checks if a target entity is within a specified distance.
 
+:::
 ### Parameters
 
 - `targetEntity`: The entity to check against (number).
