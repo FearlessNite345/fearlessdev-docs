@@ -9,6 +9,12 @@ description: How to configure FS-LBPhoneNumAssigner
 
 This guide explains how to configure **FS-LBPhoneNumAssigner**, a resource that sets the player's phone number to a custom number based on their member number for LB Phone.
 
+## 🚀 Quick Start
+
+1. Place `fs-lbphonenumassigner` in your `resources` directory.
+2. Edit `config.json` to set the `lbphoneNumberFormat` value.
+3. Restart the resource to assign numbers using your new format.
+
 :::info
 **FS-LBPhoneNumAssigner** helps streamline player identification by assigning unique phone numbers based on their in-game member numbers.
 :::

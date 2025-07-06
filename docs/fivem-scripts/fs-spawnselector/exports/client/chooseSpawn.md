@@ -11,6 +11,14 @@ description: chooseSpawn export docs
 :::info
 Triggers the spawn selector UI manually. Useful if you’re integrating with external systems like a loading screen or character creator.
 :::
+Use this export in your scripts.
+
+
+Call this export from another resource once a player has loaded in:
+
+```lua
+exports['FS-SpawnSelector']:chooseSpawn()
+```
 
 ---
 

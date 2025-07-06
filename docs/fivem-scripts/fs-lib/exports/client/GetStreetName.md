@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Returns the street name at the coords provided
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `x`: The x coordinate
 - `y`: The y coordinate

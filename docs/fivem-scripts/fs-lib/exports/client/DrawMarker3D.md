@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 Wrapper around `DrawMarker` for simple 3D markers.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `markerType`: Marker ID; defaults to 1 if not provided (number, optional).

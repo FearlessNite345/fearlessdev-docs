@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 Adds money to a player's balance.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `moneyType` - The type of money to add to (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

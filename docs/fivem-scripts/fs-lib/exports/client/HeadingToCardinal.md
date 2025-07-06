@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Converts a heading value to a cardinal direction.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `heading`: The heading angle (number).
 

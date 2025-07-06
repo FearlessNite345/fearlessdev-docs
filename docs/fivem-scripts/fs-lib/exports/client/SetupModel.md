@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Loads and sets up a model for use in the game.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `model`: The model to load (number or string).
 

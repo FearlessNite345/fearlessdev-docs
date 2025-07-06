@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Returns true or false if the current player is in a interior
 
 :::
+Use this export in your scripts.
+
 ### Returns
 - `boolean`
 

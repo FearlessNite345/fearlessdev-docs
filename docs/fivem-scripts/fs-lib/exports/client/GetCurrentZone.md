@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 Returns the zone name for the player's current location.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 This export takes no parameters.

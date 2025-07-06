@@ -9,6 +9,12 @@ description: How to set up and configure the FS-SpawnSelector resource
 Configure spawn points and control when the selector appears.
 :::
 
+## 🚀 Quick Start
+
+1. Install `fs-spawnselector` in your `resources` folder.
+2. Edit `config.lua` to add spawn points and choose automatic or manual triggering.
+3. Restart the resource to load your spawn list.
+
 ## 📦 Basic Setup
 
 To configure the `FS-SpawnSelector`, open the `config.lua` file inside the resource folder. Below is an example configuration with explanations for each option:

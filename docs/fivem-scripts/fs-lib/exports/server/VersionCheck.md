@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 Checks latest github release version vs the current resource version
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `resourceName`: The name of the resource for printing purposes

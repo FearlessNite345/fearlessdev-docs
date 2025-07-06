@@ -7,6 +7,13 @@ sidebar_label: Client
 
 Utility functions for use on the client side.
 
+### Using Client Exports
+Call these from your client scripts like so:
+
+```lua
+exports['FS-Lib']:DrawText3D(...)
+```
+
 ## Available Exports
 - [DrawMarker3D](./DrawMarker3D.md)
 - [DrawText2D](./DrawText2D.md)

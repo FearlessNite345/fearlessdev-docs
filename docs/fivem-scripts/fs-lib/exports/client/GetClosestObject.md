@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Finds the closest object within a specified distance from the player's current location.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `maxDistance`: The maximum distance within which to search for the model (number).
 

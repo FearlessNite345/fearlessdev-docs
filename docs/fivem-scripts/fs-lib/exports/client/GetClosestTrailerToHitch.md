@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Finds the closest trailer within a specified distance from the vehicle's hitch location.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `maxDistance`: The maximum distance within which to search for trailers (number).
 

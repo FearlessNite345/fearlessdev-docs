@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Draws 3D text at specified world coordinates.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `x`: X coordinate of the text (number).
 - `y`: Y coordinate of the text (number).

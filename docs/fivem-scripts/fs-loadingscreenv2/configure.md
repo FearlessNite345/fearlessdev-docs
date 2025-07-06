@@ -13,6 +13,12 @@ Customize your server's loading experience with music, tips and spawn selector i
 
 This file configures various features for the FS-LoadingScreenV2 script including spawn selector support, music playback, server tips, background slideshow, and server branding.
 
+## 🚀 Quick Start
+
+1. Place `fs-loadingscreenv2` in your `resources` folder.
+2. Edit `config.lua` to set your server name, music, and tip options.
+3. Restart the resource to see your changes in game.
+
 ---
 
 ## 🎮 Spawn Selector Integration

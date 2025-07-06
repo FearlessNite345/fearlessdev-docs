@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 Transfers money from one player to another.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `moneyType` - The type of money to transfer (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

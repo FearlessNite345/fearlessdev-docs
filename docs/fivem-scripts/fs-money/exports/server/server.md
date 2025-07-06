@@ -7,6 +7,13 @@ sidebar_label: Server
 
 Use these functions to modify or check a player's money.
 
+### Using These Exports
+Example call:
+
+```lua
+exports['FS-Money']:getMoney('cash', source)
+```
+
 ## Available Exports
 - [addMoney](./addMoney.md)
 - [getMoney](./getMoney.md)

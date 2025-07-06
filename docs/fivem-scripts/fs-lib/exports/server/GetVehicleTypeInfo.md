@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 Returns classification details for a vehicle entity.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `vehicle`: Vehicle entity ID to inspect (number).

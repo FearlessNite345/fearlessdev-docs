@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 Retrieves the current balance for a given player and money type.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `moneyType` - The type of money to retrieve (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

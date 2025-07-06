@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 Draws 2D text at specified screen coordinates.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 - `x`: X coordinate of the text on the screen (number).
 - `y`: Y coordinate of the text on the screen (number).

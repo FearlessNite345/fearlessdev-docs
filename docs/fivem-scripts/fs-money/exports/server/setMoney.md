@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 Sets the player's balance for the specified money type.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `moneyType` - The type of money to set (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).

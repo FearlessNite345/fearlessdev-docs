@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 Checks if a target entity is within a specified distance.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `targetEntity`: The entity to check against (number).

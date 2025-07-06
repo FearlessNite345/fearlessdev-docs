@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 Removes money from a player's balance.
 
 :::
+Use this export in your scripts.
+
 ### Parameters
 
 - `moneyType` - The type of money to deduct from (`'cash'`, `'bank'`, `'dirty'`, `'pokerchips'`).
