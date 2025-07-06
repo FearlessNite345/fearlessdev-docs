@@ -59,10 +59,10 @@ When defining regex patterns in `.json`, use double backslashes (`\\`) instead o
 ### 🔗 Setting Up Discord Integration
 To synchronize names with Discord, ensure the following:
 
-1. **Badger_Discord_API** is installed and properly configured.
+1. **Badger_Discord_API** or **zdiscord** is installed and properly configured.
 2. The bot has permissions to read member nicknames.
 
-No additional Discord setup is required beyond ensuring `Badger_Discord_API` functions correctly.
+No additional Discord setup is required beyond ensuring `Badger_Discord_API` or `zdiscord` functions correctly.
 
 ### ❗ Troubleshooting
 - **"Invalid PlayerName format."**  
@@ -76,4 +76,4 @@ No additional Discord setup is required beyond ensuring `Badger_Discord_API` fun
 
 - **Unexpected Errors**  
   - Review your server console logs for errors.  
-  - Ensure `Badger_Discord_API` is functional, and the `FS-NameSync` resource is up-to-date.
+  - Ensure `Badger_Discord_API` or `zdiscord` is functional, and the `FS-NameSync` resource is up-to-date.
