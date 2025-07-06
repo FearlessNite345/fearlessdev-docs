@@ -1,10 +1,15 @@
 ---
+title: SetupModel
 sidebar_position: 7
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Loads and sets up a model for use in the game.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 - `model`: The model to load (number or string).

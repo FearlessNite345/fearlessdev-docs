@@ -1,10 +1,15 @@
 ---
+title: GetClosestVehicle
 sidebar_position: 5
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Finds the closest vehicle within a specified distance from the player's current location.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 - `maxDistance`: The maximum distance within which to search for pedestrians (number).

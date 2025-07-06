@@ -1,10 +1,15 @@
 ---
+title: GetClosestTrailerToHitch
 sidebar_position: 6
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Finds the closest trailer within a specified distance from the vehicle's hitch location.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 - `maxDistance`: The maximum distance within which to search for trailers (number).

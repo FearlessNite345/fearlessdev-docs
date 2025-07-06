@@ -1,4 +1,5 @@
 ---
+title: transferMoney
 sidebar_position: 2
 ---
 
@@ -7,7 +8,11 @@ import TabItem from '@theme/TabItem';
 
 ### `transferMoney`
 
+:::info
 Transfers money from one player to another.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 

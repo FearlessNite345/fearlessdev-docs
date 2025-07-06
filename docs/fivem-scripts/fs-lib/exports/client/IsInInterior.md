@@ -1,10 +1,15 @@
 ---
+title: IsInInterior
 sidebar_position: 11
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Returns true or false if the current player is in a interior
+
+:::
+Use this export in your scripts.
 
 ### Returns
 - `boolean`

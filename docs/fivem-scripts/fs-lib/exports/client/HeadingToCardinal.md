@@ -1,10 +1,15 @@
 ---
+title: HeadingToCardinal
 sidebar_position: 10
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Converts a heading value to a cardinal direction.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 - `heading`: The heading angle (number).

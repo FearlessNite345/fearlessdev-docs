@@ -1,4 +1,21 @@
+---
+id: configure
+title: Configuring FS-RackControl
+sidebar_label: Configuration
+description: How to configure FS-RackControl
+---
+
 # Configuration Guide
+
+:::tip
+Fine-tune weapon racking, notifications, and loadouts via `config.lua`.
+:::
+
+## 🚀 Quick Start
+
+1. Copy `fs-rackcontrol` into your `resources` folder.
+2. Edit `config.lua` to define weapons and notification settings.
+3. Restart the resource after saving your changes.
 
 This file configures various behavior for the weapon racking script including language support, notification system, weapon definitions, and loadouts.
 

@@ -1,6 +1,23 @@
+---
+id: configure
+title: Configuring FS-InteriorManager
+sidebar_label: Configuration
+description: How to configure FS-InteriorManager
+---
+
 # Configuration Guide
 
+:::tip
+Manage interior teleports, entity sets, and IPLs from a single `config.lua` file.
+:::
+
 This document describes how to configure and extend the Interior Manager using the `config.lua` file.
+
+## 🚀 Quick Start
+
+1. Drop the `fs-interiormanager` folder into your `resources` directory.
+2. Edit `config.lua` to define interior folders and presets.
+3. Restart your server to load the new settings.
 
 ---
 

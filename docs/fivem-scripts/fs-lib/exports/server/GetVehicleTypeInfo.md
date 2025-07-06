@@ -1,11 +1,16 @@
 ---
+title: GetVehicleTypeInfo
 sidebar_position: 12
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+:::info
 Returns classification details for a vehicle entity.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 

@@ -1,4 +1,5 @@
 ---
+title: getMoney
 sidebar_position: 2
 ---
 
@@ -7,7 +8,11 @@ import TabItem from '@theme/TabItem';
 
 ### `getMoney`
 
+:::info
 Retrieves the current balance for a given player and money type.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 

@@ -1,4 +1,5 @@
 ---
+title: addMoney
 sidebar_position: 2
 ---
 
@@ -7,7 +8,11 @@ import TabItem from '@theme/TabItem';
 
 ### `addMoney`
 
+:::info
 Adds money to a player's balance.
+
+:::
+Use this export in your scripts.
 
 ### Parameters
 

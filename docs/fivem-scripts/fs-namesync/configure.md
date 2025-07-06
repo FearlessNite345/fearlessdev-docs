@@ -1,6 +1,23 @@
+---
+id: configure
+title: Configuring FS-NameSync
+sidebar_label: Configuration
+description: How to configure FS-NameSync
+---
+
 # Configuration Guide
 
+:::tip
+Enforce consistent player names and optional Discord synchronization.
+:::
+
 This guide explains how to configure **FS-NameSync**, a resource that ensures players' Discord names match their FiveM names and verifies that their FiveM names follow a specific regex pattern.
+
+## 🚀 Quick Start
+
+1. Place `fs-namesync` in your `resources` folder.
+2. Adjust the settings in `config.json` to suit your naming rules.
+3. Restart the resource for changes to take effect.
 
 :::info
 **FS-NameSync** helps maintain consistency across your server by synchronizing player names with Discord and enforcing naming standards through regex validation.

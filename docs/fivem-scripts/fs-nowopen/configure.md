@@ -5,6 +5,16 @@ sidebar_label: Configuration
 description: How to set up and configure the FS-NowOpen business directory system
 ---
 
+:::tip
+Display which businesses are open and manage listings with simple commands.
+:::
+
+## 🚀 Quick Start
+
+1. Place `fs-nowopen` in your `resources` folder.
+2. Edit `config.lua` to customize permissions and phone integration.
+3. Restart the script to enable the business directory.
+
 ## ⚙️ Basic Setup
 
 To configure `FS-NowOpen`, open the `config.lua` file inside the resource folder. Below is an example configuration with explanations for each option:
