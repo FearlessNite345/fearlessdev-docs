@@ -19,7 +19,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #00bfff;
   /* Deep Sky Blue */
   --ifm-color-primary-dark: #00acee;
@@ -29,4 +29,41 @@
   --ifm-color-primary-lighter: #66d9ff;
   --ifm-color-primary-lightest: #99e6ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Base button style */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.button--light {
+  background-color: rgba(33, 150, 243, 0.1); /* light blue bg */
+  color: #2196f3; /* normal blue text */
+  border: 1px solid rgba(33, 150, 243, 0.3);
+  font-weight: 600;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.button--light:hover,
+.button--light:focus {
+  background-color: rgba(33, 150, 243, 0.15); /* slightly darker bg */
+  border-color: rgba(33, 150, 243, 0.5);
+  color: #1976d2; /* slightly darker blue text */
+}
+
+.button--light:active {
+  background-color: rgba(33, 150, 243, 0.2);
+  border-color: rgba(33, 150, 243, 0.6);
+  color: #1565c0; /* even darker blue on press */
 }
