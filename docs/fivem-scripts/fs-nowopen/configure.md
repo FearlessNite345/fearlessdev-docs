@@ -1,18 +1,15 @@
 ---
+
 id: configure
 title: Configuring FS-NowOpen
-sidebar_label: Configuration
+sidebar\_label: Configuration
 description: How to set up and configure the FS-NowOpen business directory system
----
-
-:::tip
-Display which businesses are open and manage listings with simple commands.
-:::
+---------------------------------------------------------------------------------
 
 ## 🚀 Quick Start
 
 1. Place `fs-nowopen` in your `resources` folder.
-2. Edit `config.lua` to customize permissions and phone integration.
+2. Edit `config.lua` to customize permissions, phone integration, and database options.
 3. Restart the script to enable the business directory.
 
 ## ⚙️ Basic Setup
@@ -22,35 +19,46 @@ To configure `FS-NowOpen`, open the `config.lua` file inside the resource folder
 ```lua
 Config = {}
 
+-- If true, players need `Config.acePerm` to open a business. Does NOT affect admin permissions.
 Config.useAcePerms = false
--- If true, players must have the ACE permission defined in `Config.acePerm` to open a business.
--- This does *not* affect admin permissions.
 
+-- Permission required to open a business (only when `useAcePerms` is true).
 Config.acePerm = 'nowopen.use'
--- The ACE permission required to open a business (only used if `useAcePerms` is true).
 
+-- Always required for admin actions like deleting businesses not owned by the player.
+-- This is checked regardless of `useAcePerms`.
 Config.adminAcePermission = 'fs_nowopen.admin'
--- This permission is *always* required for admin-level actions like deleting other players’ businesses.
--- This is checked regardless of the `useAcePerms` setting.
 
-Config.useLBPhone = false
--- Enable this if you're using LB Phone. It allows players to call businesses and receive open/close alerts.
+-- LB Phone Integration Settings
+Config.LB_Phone = {
+    -- Enable LB Phone integration
+    Enable = false,
 
--- These apply only if `Config.useLBPhone` is true:
-Config.useLBPhoneNotifications = true
--- Enables business open/close notifications via LB Phone.
+    -- Notification options (only effective if Enable = true)
+    useNotifications = true,
+    sendOpenNotifications = true,
+    sendCloseNotifications = true,
+}
 
-Config.sendLBPhoneOpenNotifications = true
--- Send an LB Phone alert to all users when a business is opened.
-
-Config.sendLBPhoneCloseNotifications = true
--- Send an LB Phone alert when a business is closed.
-
+-- Default Notification options (if not using LB Phone notifications)
 Config.useDefaultNotifications = true
--- Enables built-in fallback notifications if LB Phone is not in use.
 
-Config.deleteBusinessOnLeave = true
--- Automatically removes a player's business when they disconnect or crash.
+-- What happens when a player leaves the server:
+-- Options:
+-- 'delete' = Remove the business entirely
+-- 'close'  = Mark the business as closed but keep it in the directory
+-- 'none'   = Do nothing; leave the business state unchanged
+Config.onLeaveAction = 'delete'
+
+-- Database Persistence --
+-- When enabled, open businesses will be saved to a database and restored on resource start.
+-- Uses `oxmysql` and the `fs_nowopen_businesses` table.
+-- ⚠️ Note: Persistence only applies if Config.onLeaveAction is set to 'close' or 'none'.
+-- If onLeaveAction is 'delete', businesses will still be removed on player leave, even if persistence is enabled.
+Config.useDatabase = false
+
+-- Enable debug logging on server and client
+Config.debug = false
 ```
 
 ---
@@ -82,15 +90,16 @@ add_ace group.admin fs_nowopen.admin allow
 If you're using [LB Phone](https://store.lbscripts.com/package/5356987), you can enable direct business calls and alerts:
 
 ```lua
-Config.useLBPhone = true
-Config.useLBPhoneNotifications = true
-Config.sendLBPhoneOpenNotifications = true
-Config.sendLBPhoneCloseNotifications = true
+Config.LB_Phone.Enable = true
+Config.LB_Phone.useNotifications = true
+Config.LB_Phone.sendOpenNotifications = true
+Config.LB_Phone.sendCloseNotifications = true
 ```
 
 Players will be able to:
-- Call businesses directly from the directory
-- Receive notifications when businesses open or close
+
+* Call businesses directly from the directory
+* Receive notifications when businesses open or close
 
 Make sure LB Phone is properly installed and running for this integration to work.
 
@@ -98,12 +107,30 @@ Make sure LB Phone is properly installed and running for this integration to wor
 
 ## 🧼 Auto-Cleanup
 
-To automatically clean up businesses for players who leave or crash:
+To configure what happens when players leave or crash, set `Config.onLeaveAction`:
+
+* `delete`: Completely removes the business
+* `close`: Marks the business as closed, keeping it in the directory
+* `none`: Leaves the business state as-is
 
 ```lua
-Config.deleteBusinessOnLeave = true
+Config.onLeaveAction = 'delete'
 ```
 
-This helps prevent outdated or inactive businesses from cluttering your server’s directory.
+If you want businesses to persist across server restarts, enable database persistence:
+
+```lua
+Config.useDatabase = true
+```
 
 ---
+
+## 🛠️ Debugging
+
+Enable debug logs on both client and server:
+
+```lua
+Config.debug = true
+```
+
+This can help during development or troubleshooting.

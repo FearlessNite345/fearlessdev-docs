@@ -3,6 +3,7 @@ id: configure
 title: Configuring FS-Money
 sidebar_label: Configuration
 description: How to configure FS-Money
+sidebar_position: 0
 ---
 
 # Configuration Guide

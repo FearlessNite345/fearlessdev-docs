@@ -1,7 +1,7 @@
 ---
 id: exports
 title: FS-Money Exports
-sidebar_label: Overview
+sidebar_label: Exports
 ---
 
 # Exports

@@ -2,7 +2,7 @@
 id: exports
 slug: /fivem-scripts/fs-lib/exports
 title: FS-Lib Exports
-sidebar_label: Overview
+sidebar_label: Exports
 ---
 
 # Exports

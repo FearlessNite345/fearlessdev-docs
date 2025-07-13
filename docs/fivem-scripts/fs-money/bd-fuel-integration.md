@@ -1,3 +1,8 @@
+---
+id: bdfuelintegration
+sidebar_label: BigDaddy-Fuel Integration
+sidebar_position: 1
+---
 
 # FS-Money Integration with BigDaddy-Fuel
 
