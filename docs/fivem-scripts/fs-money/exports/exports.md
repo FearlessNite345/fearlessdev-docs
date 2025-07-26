@@ -17,7 +17,12 @@ Server-side APIs for interacting with player balances.
 2. Use the export functions below in your server scripts.
 3. Each linked page shows parameters and examples.
 
-## Available Functions
+## Available Exports
+
+#### Client
+- [getMoney](./client/getMoney.md)
+
+#### Server
 - [addMoney](./server/addMoney.md)
 - [getMoney](./server/getMoney.md)
 - [removeMoney](./server/removeMoney.md)
